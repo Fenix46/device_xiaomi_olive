@@ -299,6 +299,6 @@ persist.net.doxlat=1
 # from device/xiaomi/olive/additional.prop
 #
 #audio parameter version
-audio_para_version=C3I-Audiopara-V13-20190930
+audio_para_version=C3I-Audiopara-V15-20191111
 
 #

@@ -37,6 +37,7 @@
             <item value="supl" />
             <item value="fota" />
         </string-array>
+        <int name="smsToMmsTextThreshold" value="5" />
     </carrier_config>
     <carrier_config mcc="268" mnc="06">
         <string name="default_vm_number_string">+351962000000</string>
@@ -164,11 +165,15 @@
     <carrier_config mcc="730" mnc="02">
         <boolean name="config_show_prefer_4g" value="true" />
         <boolean name="config_support_callbarring_over_ims" value="false" />
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
     </carrier_config>
     <carrier_config mcc="730" mnc="03">
         <string-array name="non_roaming_operator_string_array" num="1">
             <item value="73009" />
         </string-array>
+    </carrier_config>
+    <carrier_config mcc="730" mnc="02">
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
     </carrier_config>
     <carrier_config mcc="730" mnc="09">
         <string-array name="non_roaming_operator_string_array" num="4">
@@ -178,6 +183,8 @@
             <item value="73021" />
         </string-array>
         <boolean name="config_show_prefer_4g" value="true" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
     </carrier_config>
     <carrier_config mcc="716" mnc="17">
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
@@ -219,11 +226,19 @@
     <carrier_config mcc="226" mnc="01">
         <boolean name="config_support_callbarring_over_ims" value="false" />
     </carrier_config>
+    <carrier_config mcc="226" mnc="05">
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
+    </carrier_config>
     <carrier_config mcc="214" mnc="01">
         <boolean name="config_support_callbarring_over_ims" value="false" />
     </carrier_config>
     <carrier_config mcc="214" mnc="04">
         <boolean name="config_support_callbarring_over_ims" value="false" />
+    </carrier_config>
+    <carrier_config mcc="250" mnc="01">
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
     </carrier_config>
     <carrier_config mcc="510" mnc="28">
         <boolean name="support_video_conference_call_bool" value="true" />
@@ -233,6 +248,7 @@
     </carrier_config>
     <carrier_config mcc="732" mnc="103,111,165">
         <string name="default_vm_number_string">*123</string>
+        <boolean name="hide_ims_apn_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="525" mnc="01">
         <boolean name="config_callbarring_base_on_volte" value="true" />

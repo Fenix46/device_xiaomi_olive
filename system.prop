@@ -295,6 +295,14 @@ persist.vendor.camera.aec.sync=1
 
 #add by HQ_fengsimin for HQ-48473
 persist.net.doxlat=1
+
+#IOP properties
+vendor.iop.enable_uxe=0
+vendor.iop.enable_prefetch_ofr=0
+
+#enable bg dexopt
+persist.bg.dexopt.enable=true
+
 #
 # from device/xiaomi/olive/additional.prop
 #

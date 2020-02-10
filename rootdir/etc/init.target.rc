@@ -442,6 +442,7 @@ on boot
     chmod 0777 /sys/class/leds/flashlight/brightness
     chmod 0666 /proc/ilitek/ioctl
     chmod 0666 /proc/nvt_pocket_palm_switch
+    chmod 0666 /sys/bus/spi/devices/spi3.2/fts_rw_reg
 write /sys/kernel/boot_adsp/boot 1
 
 service checknv /system/bin/checknv

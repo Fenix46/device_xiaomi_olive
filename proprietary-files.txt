@@ -144,12 +144,16 @@ vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_workspaceFile.qwsp
 # Audio-Hardware
 vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.msm8937.so
+vendor/lib/hw/audio.r_submix.default.so
+vendor/lib/hw/audio.usb.default.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/soundfx/libqcompostprocbundle.so
 vendor/lib/soundfx/libqcomvisualizer.so
 vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.msm8937.so
+vendor/lib64/hw/audio.r_submix.default.so
+vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/libtinycompress_vendor.so
 vendor/lib64/soundfx/libqcompostprocbundle.so
 vendor/lib64/soundfx/libqcomvisualizer.so
@@ -1396,6 +1400,33 @@ vendor/lib/libchromatix_olive_ov02a10_ofilm_factory_zsl_video.so
 vendor/lib/libchromatix_olive_ov02a10_ofilm_hfr_120.so
 vendor/lib/libchromatix_olive_ov02a10_ofilm_hfr_60.so
 vendor/lib/libchromatix_olive_ov02a10_ofilm_hfr_90.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_a3_default_preview.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_a3_default_video.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_a3_hfr_120.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_a3_hfr_60.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_a3_hfr_90.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_common.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_ds_chromatix.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_hfr_120.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_hfr_60.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_hfr_90.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_liveshot.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_preview.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_snapshot.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_us_chromatix.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_video.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_video_full.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_default_video.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_hfr_120.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_hfr_60.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_hfr_90.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_liveshot.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_postproc.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_preview.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_snapshot.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_video_full.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_zsl_preview.so
+vendor/lib/libchromatix_olive_ov02a10_ofilm_india_zsl_video.so
 vendor/lib/libchromatix_olive_ov02a10_ofilm_liveshot.so
 vendor/lib/libchromatix_olive_ov02a10_ofilm_postproc.so
 vendor/lib/libchromatix_olive_ov02a10_ofilm_preview.so
@@ -3067,6 +3098,12 @@ vendor/etc/camera/imx362_gt24c64a_chromatix.xml
 vendor/etc/camera/imx376_chromatix.xml
 vendor/etc/camera/imx378_chromatix.xml
 vendor/etc/camera/model_back.dlc
+vendor/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_ii_cn.xml
+vendor/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_ii_gl.xml
+vendor/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_ii_in.xml
+vendor/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_i_cn.xml
+vendor/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_i_gl.xml
+vendor/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_i_in.xml
 vendor/etc/camera/new_4x_down_morpho_hht_params_samsung_s5k2l7_ii_cn.xml
 vendor/etc/camera/new_4x_down_morpho_hht_params_samsung_s5k2l7_ii_gl.xml
 vendor/etc/camera/new_4x_down_morpho_hht_params_samsung_s5k2l7_ii_in.xml
@@ -3079,6 +3116,12 @@ vendor/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_ii_in.xml
 vendor/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_i_cn.xml
 vendor/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_i_gl.xml
 vendor/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_i_in.xml
+vendor/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_ii_cn.xml
+vendor/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_ii_gl.xml
+vendor/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_ii_in.xml
+vendor/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_i_cn.xml
+vendor/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_i_gl.xml
+vendor/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_i_in.xml
 vendor/etc/camera/new_4x_up_morpho_hht_params_samsung_s5k2l7_ii_cn.xml
 vendor/etc/camera/new_4x_up_morpho_hht_params_samsung_s5k2l7_ii_gl.xml
 vendor/etc/camera/new_4x_up_morpho_hht_params_samsung_s5k2l7_ii_in.xml
@@ -3091,6 +3134,12 @@ vendor/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_ii_in.xml
 vendor/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_i_cn.xml
 vendor/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_i_gl.xml
 vendor/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_i_in.xml
+vendor/etc/camera/new_morpho_hht_params_omnivision_13b10_ii_cn.xml
+vendor/etc/camera/new_morpho_hht_params_omnivision_13b10_ii_gl.xml
+vendor/etc/camera/new_morpho_hht_params_omnivision_13b10_ii_in.xml
+vendor/etc/camera/new_morpho_hht_params_omnivision_13b10_i_cn.xml
+vendor/etc/camera/new_morpho_hht_params_omnivision_13b10_i_gl.xml
+vendor/etc/camera/new_morpho_hht_params_omnivision_13b10_i_in.xml
 vendor/etc/camera/new_morpho_hht_params_samsung_s5k2l7_ii_cn.xml
 vendor/etc/camera/new_morpho_hht_params_samsung_s5k2l7_ii_gl.xml
 vendor/etc/camera/new_morpho_hht_params_samsung_s5k2l7_ii_in.xml
@@ -3122,6 +3171,7 @@ vendor/etc/camera/olive_imx486_sunny_chromatix.xml
 vendor/etc/camera/olive_imx486_sunny_chromatix_factory.xml
 vendor/etc/camera/olive_ov02a10_ofilm_chromatix.xml
 vendor/etc/camera/olive_ov02a10_ofilm_chromatix_factory.xml
+vendor/etc/camera/olive_ov02a10_ofilm_chromatix_india.xml
 vendor/etc/camera/olive_ov13b10_ofilm_chromatix.xml
 vendor/etc/camera/olive_ov13b10_ofilm_chromatix_factory.xml
 vendor/etc/camera/olive_ov13b10_ofilm_chromatix_india.xml
@@ -3522,6 +3572,7 @@ vendor/lib64/vendor.display.config@1.6.so
 vendor/lib64/vendor.display.config@1.7.so
 
 # Display-calibration
+vendor/etc/qdcm_calib_data_ft8006s_hdplus_c3i_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_ili9881h_hdplus_c3i_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_nvt36525b_hdplus_c3i_video_mode_dsi_panel.xml
 
@@ -4431,7 +4482,9 @@ vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # Thermal
+vendor/bin/hw/android.hardware.thermal@1.0-service
 vendor/bin/thermal-engine
+vendor/etc/init/android.hardware.thermal@1.0-service.rc
 vendor/etc/thermal-engine-camera.conf
 vendor/etc/thermal-engine-high.conf
 vendor/etc/thermal-engine-map.conf
@@ -4439,13 +4492,15 @@ vendor/etc/thermal-engine-nolimits.conf
 vendor/etc/thermal-engine-normal.conf
 vendor/etc/thermal-engine-sgame.conf
 vendor/etc/thermal-engine.conf
+vendor/lib/hw/android.hardware.thermal@1.0-impl.so
+vendor/lib/hw/thermal.msm8937.so
 -vendor/lib/libthermalclient.so
+vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
+vendor/lib64/hw/thermal.msm8937.so
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalfeature.so
 
 # Thermal-Hardware
-vendor/lib/hw/thermal.msm8937.so
-vendor/lib64/hw/thermal.msm8937.so
 
 # Time
 -vendor/app/TimeService/TimeService.apk
@@ -4576,7 +4631,6 @@ vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib/libmlipay.so
 vendor/lib/libmlipay@1.1.so
-vendor/lib/libmt.so
 vendor/lib/libtida@1.1.so
 vendor/lib/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@2.0.so
@@ -4590,8 +4644,6 @@ vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib64/libmlipay.so
 vendor/lib64/libmlipay@1.1.so
-vendor/lib64/libmt.so
-vendor/lib64/libmt@1.2.so
 vendor/lib64/libtida@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
@@ -4681,6 +4733,9 @@ vendor/bin/vsimd
 vendor/bin/wdsdaemon
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
+-vendor/data-app/Miui_Fashiongallery_global_new/Miui_Fashiongallery_global_new.apk
+-vendor/data-app/PeelMiRemote/PeelMiRemote.apk
+-vendor/data-app/wps_lite/wps_lite.apk
 -vendor/data-app/XMRemoteController/XMRemoteController.apk
 vendor/etc/Conf_MultipleTest.ini
 vendor/etc/ftm_test_config_wcd9335
@@ -4697,6 +4752,7 @@ vendor/lib/libfastcrc.so
 vendor/lib/libfastrpc_utf_stub.so
 vendor/lib/libflash_gpio.so
 vendor/lib/libloc2jnibridge.so
+vendor/lib/libmt.so
 vendor/lib/libscalar.so
 vendor/lib/libsi.so
 vendor/lib/libteeclientjni.so
@@ -4710,6 +4766,8 @@ vendor/lib64/libdiagjni.so
 vendor/lib64/libfastcrc.so
 vendor/lib64/libfastrpc_utf_stub.so
 vendor/lib64/libloc2jnibridge.so
+vendor/lib64/libmt.so
+vendor/lib64/libmt@1.2.so
 vendor/lib64/libreffeature.so
 vendor/lib64/libscalar.so
 vendor/lib64/libsi.so

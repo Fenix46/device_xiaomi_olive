@@ -1132,7 +1132,7 @@ service diag_mdlog_stop /system/vendor/bin/diag_mdlog -k
     oneshot
 
 # add for HQ-31167 start
-service diag_mdmlog_start /system/bin/diag_hqmdlog
+service diag_mdmlog_start /system/bin/diag_hqmdlog -o /sdcard/diag_logs/modem/
     class late_start
     user shell
     group system oem_2901 sdcard_rw sdcard_r media_rw

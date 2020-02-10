@@ -292,10 +292,13 @@ ro.vendor.audio.sos=true
 
 #add tuning aec
 persist.vendor.camera.aec.sync=1
+
+#add by HQ_fengsimin for HQ-48473
+persist.net.doxlat=1
 #
 # from device/xiaomi/olive/additional.prop
 #
 #audio parameter version
-audio_para_version=C3I-Audiopara-V10-20190820
+audio_para_version=C3I-Audiopara-V13-20190930
 
 #

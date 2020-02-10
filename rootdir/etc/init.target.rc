@@ -441,6 +441,7 @@ on boot
     chown system system /sys/class/leds/flashlight/brightness
     chmod 0777 /sys/class/leds/flashlight/brightness
     chmod 0666 /proc/ilitek/ioctl
+    chmod 0666 /proc/nvt_pocket_palm_switch
 write /sys/kernel/boot_adsp/boot 1
 
 service checknv /system/bin/checknv
@@ -579,6 +580,16 @@ service screenmode3 /vendor/bin/scancode_bin s 3
     disabled
 
 service whiteflashon /system/vendor/bin/factory_bin w 1
+    user root
+    oneshot
+    disabled
+
+service openpocket /vendor/bin/scancode_bin p 1
+    user root
+    oneshot
+    disabled
+
+service closepocket /vendor/bin/scancode_bin p 0
     user root
     oneshot
     disabled

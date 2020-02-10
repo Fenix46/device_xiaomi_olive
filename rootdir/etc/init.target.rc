@@ -714,3 +714,12 @@ chmod 0777 /data/vendor/camera/golden_rear_dc_cal_wt_imx486_ov02a10.bin
 copy /vendor/etc/camera/golden_rear_dc_cal_wt_s5k2l7_gc2375hw.bin /data/vendor/camera/golden_rear_dc_cal_wt_s5k2l7_gc2375hw.bin
 chown cameraserver audio  /data/vendor/camera/golden_rear_dc_cal_wt_s5k2l7_gc2375hw.bin
 chmod 0777 /data/vendor/camera/golden_rear_dc_cal_wt_s5k2l7_gc2375hw.bin
+
+copy /vendor/etc/camera/golden_rear_dc_cal_wt_ov13b10_ov02a10.bin /data/vendor/camera/golden_rear_dc_cal_wt_ov13b10_ov02a10.bin
+chown cameraserver audio  /data/vendor/camera/golden_rear_dc_cal_wt_ov13b10_ov02a10.bin
+chmod 0777 /data/vendor/camera/golden_rear_dc_cal_wt_ov13b10_ov02a10.bin
+
+copy /vendor/etc/camera/golden_rear_dc_cal_wt_ov13b10_gc2375hw.bin /data/vendor/camera/golden_rear_dc_cal_wt_ov13b10_gc2375hw.bin
+chown cameraserver audio  /data/vendor/camera/golden_rear_dc_cal_wt_ov13b10_gc2375hw.bin
+chmod 0777 /data/vendor/camera/golden_rear_dc_cal_wt_ov13b10_gc2375hw.bin
+

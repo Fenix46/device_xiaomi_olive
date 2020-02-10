@@ -49,7 +49,6 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     ro.vendor.audio.sdk.ssr=false \
     ro.vendor.audio.soundfx.type=mi \
     ro.vendor.audio.voice.volume.boost=manual \
-    ro.vendor.build.fingerprint=Xiaomi/olive_ru/olive:9/PKQ1.190319.001/V11.0.1.0.PCNRUXM:user/release-keys \
     ro.vendor.display.sensortype=2 \
     ro.vendor.display.svi=1 \
     ro.vendor.extension_library=libqti-perfd-client.so \
